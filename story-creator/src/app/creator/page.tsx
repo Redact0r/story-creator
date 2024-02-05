@@ -22,7 +22,7 @@ export default function CreatorPage() {
     setWordCount(currentNumWords);
 
     let colorClass = "";
-    if (currentNumWords < minWordCount) {
+    if (currentNumWords < minWordCount && currentNumWords > 0) {
       colorClass = "text-yellow-500";
     } else if (
       currentNumWords >= minWordCount &&

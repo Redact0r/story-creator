@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { StoryGridProps } from "./types";
+import { StoryGridProps } from "../../_types/MapPageTypes";
 import StoryGridCard from "./StoryGridCard";
 
 const StoryGrid = (props: StoryGridProps) => {

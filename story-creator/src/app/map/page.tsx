@@ -2,8 +2,8 @@
 import { exampleStoryObjects, StoryObject } from "@/data/dataTypes";
 import { useState, MouseEvent } from "react";
 
-import StoryGrid from "./StoryGrid";
-import StoryMap from "./StoryMap";
+import StoryGrid from "../_components/StoryGrid/StoryGrid";
+import StoryMap from "../_components/StoryMap/StoryMap";
 
 export default function StoryMapPage() {
   const blankStoryObject: StoryObject = {

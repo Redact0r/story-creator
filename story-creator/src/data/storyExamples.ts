@@ -55,14 +55,14 @@ export const exampleStoryObject_1: StoryObject = {
     },
     {
       id: "Ending 2",
-      idx: 5,
+      idx: 6,
       sceneText:
         "The crowd erupts with laughter, assuming you are parodying Rogan. Whew, made it out of that one. You finish the set well to thunderous applause.",
       nextScene: "end",
     },
     {
       id: "Ending 3",
-      idx: 5,
+      idx: 7,
       sceneText:
         "The crowd erupts with laughter, assuming you are parodying Rogan. Whew, made it out of that one. You finish the set well to thunderous applause.",
       nextScene: "end",
@@ -112,21 +112,21 @@ export const exampleStoryObject_2: StoryObject = {
     },
     {
       id: "Fired Robby",
-      idx: 2,
+      idx: 4,
       sceneText:
         "Robby is let go for unsafe food storage procedures. You feel a small tinge gnawing at your conscience. Is that guilt? Nah, it must be pride.",
       nextScene: "end",
     },
     {
       id: "Fired Christina",
-      idx: 2,
+      idx: 5,
       sceneText:
         "Christina is fired for fraudulent documentation: signing off on cleaning that hadn't been done. Somehow in the course of the conversation you convince her to consider herself lucky that you haven't sued or arrested her. She leaves in tears without collecting her last check.",
       nextScene: "end",
     },
     {
       id: "Fired Amelia",
-      idx: 2,
+      idx: 6,
       sceneText:
         "The second worse offense you can commit is not doing your job. The worst? Making your manager do it for you. When she arrived, you sat her down and explained why she was being let go. You tell her no hard feelings, that's just business, and she leaves with a handshake. You had cleaned the filth in the men's restroom before she showed up for her shift, and you never washed your hands.",
       nextScene: "end",

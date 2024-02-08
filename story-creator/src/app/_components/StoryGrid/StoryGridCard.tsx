@@ -1,5 +1,5 @@
 import { MouseEvent } from "react";
-import { StoryGridCardProps } from "./types";
+import { StoryGridCardProps } from "../../_types/MapPageTypes";
 
 const StoryGridCard = (props: StoryGridCardProps) => {
   const handleStoryGridCardClick = (

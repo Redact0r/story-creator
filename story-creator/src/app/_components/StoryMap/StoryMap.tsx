@@ -1,5 +1,5 @@
 import StoryMapSceneGrid from "./StoryMapSceneGrid";
-import { StoryMapProps } from "./types";
+import { StoryMapProps } from "../../_types/MapPageTypes";
 
 const StoryMap = (props: StoryMapProps) => {
   const { title, author, scenes } = props.story;

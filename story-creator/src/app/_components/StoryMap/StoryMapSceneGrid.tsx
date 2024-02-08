@@ -1,6 +1,6 @@
 import { SceneObject } from "@/data/dataTypes";
 import StoryMapSceneCard from "./StoryMapSceneCard";
-import { StoryMapSceneGridProps } from "./types";
+import { StoryMapSceneGridProps } from "../../_types/MapPageTypes";
 
 const StoryMapSceneGrid = (props: StoryMapSceneGridProps) => {
   //id, idx, sceneText, choices?, nextScene

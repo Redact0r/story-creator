@@ -35,8 +35,12 @@ const NavBar = (props: any) => {
   return (
     <nav className="navBar flex flex-row justify-around items-center mx-auto max-w-screen-xl px-4 py-2 lg:px-8 lg:py-4">
       {linkList
-        ? linkList.map((link: any) => {
-            return <Link href={link.href}>{link.title}</Link>;
+        ? linkList.map((link: any, idx: number) => {
+            return (
+              <Link key={idx} href={link.href}>
+                {link.title}
+              </Link>
+            );
           })
         : "Error Loading Navbar"}
     </nav>

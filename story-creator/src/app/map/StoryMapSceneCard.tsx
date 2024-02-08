@@ -6,9 +6,7 @@ const StoryMapSceneCard = (props: StoryMapSceneCardProps) => {
   return (
     <div className="sceneCard">
       <div className="sceneCardNumber">{idx}</div>
-      <input type="text" placeholder="Input scene title...">
-        {id}
-      </input>
+      <input type="text" placeholder="Input scene title..." />
       <textarea>{sceneText}</textarea>
     </div>
   );

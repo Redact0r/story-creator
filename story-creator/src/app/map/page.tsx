@@ -23,22 +23,21 @@ export default function StoryMapPage() {
     if (!storyMapViewEnabled) {
       setStoryMapViewEnabled(true);
     }
-
-    return (
-      <main>
-        <h1>Story Map</h1>
-        <div className="StoryMapper">
-          {storyMapViewEnabled ? (
-            <StoryMap story={selectedStory}></StoryMap>
-          ) : null}
-        </div>
-        {
-          <StoryGrid
-            stories={exampleStoryObjects}
-            updateSelectedStory={updateSelectedStory}
-          ></StoryGrid>
-        }
-      </main>
-    );
   };
+  return (
+    <main>
+      <h1>Story Map</h1>
+      <div className="StoryMapper">
+        {storyMapViewEnabled ? (
+          <StoryMap story={selectedStory}></StoryMap>
+        ) : null}
+      </div>
+      {
+        <StoryGrid
+          stories={exampleStoryObjects}
+          updateSelectedStory={updateSelectedStory}
+        ></StoryGrid>
+      }
+    </main>
+  );
 }

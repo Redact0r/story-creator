@@ -28,7 +28,7 @@ export const exampleStoryObjects = [
 export type StoryObject = {
   title: string;
   author: string;
-  scenes?: SceneObject[];
+  scenes: SceneObject[];
 };
 
 interface BaseSceneObject {

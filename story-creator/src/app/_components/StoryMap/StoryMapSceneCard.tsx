@@ -5,7 +5,7 @@ const StoryMapSceneCard = (props: StoryMapSceneCardProps) => {
   const { id, idx, sceneText, choices, nextScene } = props.scene;
   const sceneParagraphs = sceneText.split("\n");
   return (
-    <div className="sceneCard">
+    <div className="sceneCard w-48 h-50 p-4 border border-solid border-indigo-500">
       <div className="sceneCardNumber">{idx}</div>
       <h4>{id}</h4>
       {/* <input type="text" placeholder="Input scene title..." /> */}
